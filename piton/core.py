@@ -31,6 +31,6 @@ def translate(code):
         code = code.replace(f'__S{i}__', strings[i])
     return code
 
-def run_piton(code):
+def run_pitonx(code):
     python_code = translate(code)
     exec(python_code, {'__builtins__': __builtins__, 'print': print})
