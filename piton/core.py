@@ -13,7 +13,6 @@ def translate(code):
             elif b.endswith(';'):
                 lines[i] = f'ketik({b[:-1]})'
     code = '\n'.join(lines)
-
     strings = []
     idx = 0
     def save_string(match):
@@ -22,17 +21,13 @@ def translate(code):
         result = f'__S{idx}__'
         idx += 1
         return result
-
     code = re.sub(r'"[^"\\]*(\\.[^"\\]*)*"', save_string, code)
     code = re.sub(r"'[^'\\]*(\\.[^'\\]*)*'", save_string, code)
-
     sorted_keys = sorted(PITON_MAP.keys(), key=len, reverse=True)
     for key in sorted_keys:
         code = re.sub(r'\b' + re.escape(key) + r'\b', PITON_MAP[key], code)
-
     for i in range(len(strings)):
         code = code.replace(f'__S{i}__', strings[i])
-
     return code
 
 def run_piton(code):
