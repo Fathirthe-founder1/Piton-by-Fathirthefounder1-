@@ -1,0 +1,131 @@
+<p align="center">
+  <img src="https://i.ibb.co.com/fdzWmp2j/file-00000000b7147208b93077ad17a46918.png" alt="PitonX Logo" width="120">
+</p>
+
+# PitonX — Bahasa Pemrograman Indonesia
+
+PitonX adalah bahasa pemrograman berbasis Python yang menggunakan sintaksis Bahasa Indonesia. Proyek ini dirancang khusus untuk mempermudah pemula, pelajar, dan developer di Indonesia dalam memahami logika pemrograman tanpa terkendala bahasa. PitonX juga mendukung **Dual Mode** yang memungkinkan Anda mencampur sintaks bahasa Indonesia dan Inggris secara fleksibel.
+
+## 🚀 Instalasi
+
+Pastikan Anda sudah menginstal Python dan `pip` di sistem Anda. Jalankan perintah berikut di terminal:
+
+```bash
+pip install PitonX
+```
+
+## 🛠️ Cara Pakai
+
+Anda dapat menggunakan PitonX melalui CLI (Command Line Interface) atau mengisinya sebagai library di dalam kode Python.
+
+### Melalui CLI
+Jalankan file script PitonX (berekstensi `.px`) langsung dari terminal:
+```bash
+pitonx nama_file.px
+```
+
+### Melalui Library Python
+Gunakan fungsi `run` dari modul `pitonx` untuk mengeksekusi string kode:
+```python
+import pitonx as px
+px.run('ketik("Halo dari PitonX!")')
+```
+
+## 📖 Kamus PitonX → Python
+
+Berikut adalah tabel padanan sintaksis lengkap dari PitonX ke Python standard:
+
+| Kategori | PitonX | Python |
+| :--- | :--- | :--- |
+| **I/O** | ketik | print |
+| | terima | input |
+| | buka | open |
+| | tutup | close |
+| | baca | read |
+| | tulis | write |
+| | barisbaca | readline |
+| | barisbacasemua | readlines |
+| **Fungsi** | buat | def |
+| | kembalikan | return |
+| | wadah | class |
+| | anon | lambda |
+| | serahkan | yield |
+| | inisial | init |
+| | str | str |
+| | repr | repr |
+| **Logika** | jika | if |
+| | jikalau | elif |
+| | selain | else |
+| | pasti | assert |
+| **Loop** | selagi | while |
+| | ulangi | for |
+| | henti | break |
+| | lanjut | continue |
+| | lewat | pass |
+| **Tipe Data** | teks | str |
+| | bilangan | int |
+| | desimal | float |
+| | logika | bool |
+| | daftar | list |
+| | kamus | dict |
+| | panjang | len |
+| | jenis | type |
+| | rentang | range |
+| **Boolean** | BENAR | True |
+| | SALAH | False |
+| | KOSONG | None |
+| **Operator** | dan | and |
+| | atau | or |
+| | bukan | not |
+| | dalam | in |
+| | adalah | is |
+| **Modul** | impor | import |
+| | dari | from |
+| | sbg | as |
+| **Error** | coba | try |
+| | tangkapi | except |
+| | bersihkan | finally |
+| | lontar | raise |
+| **Math** | maks | max |
+| | min | min |
+| | total | sum |
+| | urut | sorted |
+| | abs | abs |
+| | bulat | round |
+| | pangkat | pow |
+| **Khusus** | nama | name |
+| | utama | main |
+
+## ⚙️ Cara Kerja Sistem
+
+Sistem penerjemahan PitonX bekerja melalui beberapa tahapan ringkas berikut:
+
+1. **Input**: Pengguna menulis kode program menggunakan sintaksis PitonX.
+2. **Translasi**: Sistem membaca kode tersebut dan menerjemahkannya ke kode Python standar menggunakan kamus pemetaan `PITON_MAP`.
+3. **Mode Super Singkat**: Fitur otomatis yang mengubah ekspresi string atau angka langsung menjadi fungsi `ketik()`.
+4. **Eksekusi**: Kode Python hasil terjemahan dieksekusi secara real-time dan hasilnya dikembalikan sebagai output kepada pengguna.
+
+## 📁 Struktur Folder
+
+```text
+PitonX/
+├── pitonx/
+│   ├── __init__.py
+│   ├── core.py
+│   ├── cli.py
+│   ├── builtins.py
+│   └── utils.py
+├── main.py
+├── setup.py
+├── README.md
+└── .gitignore
+```
+
+## 👥 Credit & Author
+
+* **Author:** Fathirthe-founder1
+* **Credit:** DeepSeek, Komunitas Python Indonesia
+
+---
+
+> "Dreams will not be hindered by your weaknesses, dreams will only be hindered if you don't do it." — Fathir
