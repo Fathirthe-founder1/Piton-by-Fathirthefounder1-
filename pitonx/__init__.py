@@ -3,3 +3,5 @@ from .cli import main
 
 run = run_pitonx
 translate = translate
+
+__all__ = ['run', 'translate']
