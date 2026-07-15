@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.ibb.co.com/fdzWmp2j/file-00000000b7147208b93077ad17a46918.png" alt="PitonX Logo" width="120">
+  <img src="assets/pitonx.png" alt="PitonX Logo" width="120">
 </p>
 
 # PitonX — Bahasa Pemrograman Indonesia
