@@ -130,19 +130,25 @@ PitonX/
 ├── pitonx/
 │   ├── __init__.py
 │   ├── core.py
-│   ├── cli.py
 │   ├── builtins.py
-│   └── utils.py
-├── main.py
+│   ├── cli.py
+│   ├── repl.py
+│   └── logo.py
 ├── setup.py
 ├── README.md
+├── LICENSE
 └── .gitignore
 ```
 
-## 👥 Credit & Author
+## 🙏 Kredit & Ucapan Terima Kasih
 
-* **Author:** Fathirthe-founder1
-* **Credit:** Deepseek,Fathir
+PitonX tidak akan terwujud tanpa peran dari pihak-pihak berikut:
+
+| Peran | Kontribusi |
+|------|------------|
+| **Fathirthe-founder1**(gw)| Infrastruktur, cara kerja, sistem, logika penerjemahan, Mode Super Singkat, CLI, REPL, dan pengujian menyeluruh. |
+| **DeepSeek AI** | Penyusunan folder, penulisan kode, debugging, optimasi, dan dokumentasi teknis. |
+| **Komunitas Python Indonesia** | Sumber inspirasi dan semangat untuk terus berkembang. |
 
 ---
 
