@@ -426,9 +426,4 @@ Terima kasih telah menggunakan PitonX! Semoga bahasa pemrograman ini membuat pem
 
 ## DISCLAIMER💡
 
-> **Proyek ini hanya Hobi,Eksperimen,Iseng saja,jika ada yang mau mengembangkan,maka silahkan**
-
-# CREDIT🤝
-
-**Author**: Fathirthe-founder1 
-**Assistant**: Deepseek
+> **Proyek ini hanya Hobi,Eksperimen saja,jika ada yang mau mengembangkan,boleh git clone**
