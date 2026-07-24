@@ -5,30 +5,13 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="pitonx",
-    version="8.0.3",
-    author="Jameson AlFathir Void",
-    author_email="fathiragata22@gmail.com",
+    version="8.1.7",
+    author="Fathirthe-founder1",
     description="PitonX - A Python Programming Language with Indonesian Keywords",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Fathirthe-founder1/PitonX",
     packages=find_packages(),
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.7",
-        "Programming Language :: Python :: 3.8",
-        "Programming Language :: Python :: 3.9",
-        "Programming Language :: Python :: 3.10",
-        "Programming Language :: Python :: 3.11",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-        "Topic :: Software Development :: Languages",
-        "Topic :: Education",
-        "Intended Audience :: Developers",
-        "Intended Audience :: Education",
-        "Natural Language :: Indonesian",
-        "Development Status :: 4 - Beta",
-    ],
     python_requires=">=3.7",
     entry_points={
         "console_scripts": [
